@@ -15,6 +15,7 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
+  font-weight: lighter;
 }
 
 .section-heading{
@@ -150,12 +151,16 @@ p {
   βλέποντας σε ποιο resolution αρχιζει και χαλαει*/
 
 @media (max-width: 993px) {
-#title {
+  #title {
   text-align: center;
-}
+  }
 
   .title-image {
     position: static;
     transform: rotate(0);
+  }
+
+  .row{
+    text-align: center;
   }
 }
